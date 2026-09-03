@@ -14,6 +14,14 @@
     -fx-font: bold 14px "Arial";
 }
 
+.button:hover {
+    -fx-background-color: #00d9ff;
+}
+
+.button:pressed {
+    -fx-background-color: #ff9c42;
+}
+
 .scroll-pane,
 .scroll-pane .viewport {
     -fx-background-color: rgba(255, 255, 255, 0.75);
