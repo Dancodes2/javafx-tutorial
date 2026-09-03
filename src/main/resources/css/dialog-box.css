@@ -6,3 +6,8 @@
     -fx-border-radius: 1em 1em 0 1em;
     -fx-text-fill: #202020;
 }
+
+.reply-label {
+    -fx-background-radius: 1em 1em 1em 0;
+    -fx-border-radius: 1em 1em 1em 0;
+}
