@@ -1,3 +1,20 @@
 .root {
-    -fx-background-color: white;
+    main-color: rgb(237, 255, 242);
+    -fx-background-color: main-color;
+}
+
+.text-field {
+    -fx-background-color: #d9ffe2;
+    -fx-font: 16px "Arial";
+}
+
+.button {
+    -fx-background-color: #55c2ff;
+    -fx-text-fill: #ffffff;
+    -fx-font: bold 14px "Arial";
+}
+
+.scroll-pane,
+.scroll-pane .viewport {
+    -fx-background-color: rgba(255, 255, 255, 0.75);
 }
