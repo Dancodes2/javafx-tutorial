@@ -8,6 +8,11 @@
     -fx-font: 16px "Arial";
 }
 
+.text-field:focused {
+    -fx-border-color: #008cba;
+    -fx-border-width: 2px;
+}
+
 .button {
     -fx-background-color: #55c2ff;
     -fx-text-fill: #ffffff;
